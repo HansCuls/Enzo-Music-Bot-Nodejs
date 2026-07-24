@@ -1,0 +1,26 @@
+{
+  "name": "music-bot-telegram",
+  "version": "3.0.0",
+  "description": "Bot musik Telegram lengkap | Multi-userbot | 5 bahasa | Voice Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "teleproto": "*",
+    "@arnabxd/ntgcalls-napi": "*",
+    "youtube-sr": "*",
+    "@vreden/youtube_scraper": "*"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^23.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
